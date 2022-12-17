@@ -169,7 +169,6 @@ main {
 .gallery-item img {
   display: block;
   width: 300px;
-  height: 300px;
   /* width: 100%; */
   transition: all 0.4s;
 }
