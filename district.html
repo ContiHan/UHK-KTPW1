@@ -270,10 +270,15 @@
 
       <footer>
         <small
-          >&copy; 2022 HANAKDA1 Všechna práva vyhrazena | Poslední aktualizace -
-          prosinec 2022 | studentský zápočtový projekt KTPW1 |
+          >&copy; <span id="copyright-year"></span> HANAKDA1 Všechna práva
+          vyhrazena | Poslední aktualizace - prosinec 2022 | studentský
+          zápočtový projekt KTPW1 |
           <a href="mailto:daniel.hanak@uhk.cz">daniel.hanak@uhk.cz</a>
         </small>
+        <script>
+          document.getElementById("copyright-year").innerHTML =
+            new Date().getFullYear();
+        </script>
       </footer>
     </main>
   </body>
