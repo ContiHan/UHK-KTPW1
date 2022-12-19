@@ -124,6 +124,11 @@ a {
   gap: 50px;
 }
 
+.location-info {
+  align-self: flex-start;
+  flex: 1;
+}
+
 /* GRID */
 
 html,
@@ -240,6 +245,10 @@ main {
   margin-bottom: 40px;
 }
 
+.margin-bottom-huge {
+  margin-bottom: 50px;
+}
+
 /* TABLES */
 
 .fancy-table {
@@ -313,6 +322,13 @@ input[type="submit"]:hover {
   background-color: #496d89;
 }
 
+/* OTHER STUFFS */
+
+.bottom-line {
+  padding-bottom: 15px;
+  border-bottom: solid 1px #718ea4;
+}
+
 @media (max-width: 1366px) {
   main,
   .gallery,
@@ -331,7 +347,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 650px) {
   main,
   .gallery,
   .patriots {
