@@ -255,6 +255,7 @@ main {
   border-collapse: collapse;
   table-layout: auto;
   width: 100%;
+  min-width: 1024px;
   text-align: left;
 }
 
@@ -336,6 +337,10 @@ input[type="submit"]:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .fancy-table {
+    min-width: 600px;
+  }
+
   .patriots p,
   .partiots-header {
     width: 280px;
@@ -355,7 +360,12 @@ input[type="submit"]:hover {
   }
 
   .fancy-table {
-    table-layout: auto;
+    min-width: 0;
+  }
+
+  .fancy-table th,
+  .fancy-table td {
+    font-size: 12px;
   }
 
   .patriots h4 {
