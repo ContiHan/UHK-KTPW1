@@ -10,8 +10,8 @@
     <title>Orčí Ohlávky</title>
   </head>
   <body>
-    <main>
-      <header class="grid-all-cols row row-two-elements">
+    <div class="main-grid">
+      <header class="row row-two-elements">
         <div class="row gap-tiny">
           <img
             src="images/logo/logo-axes-transparent-colored.png"
@@ -33,21 +33,28 @@
         </nav>
       </header>
 
-      <article class="form-area grid-all-cols grid-center">
+      <main class="form-area">
         <h2>Napiště nám</h2>
 
-        <form>
-          <label for="fname">Jméno</label><br />
-          <input type="text" name="fname" placeholder="Vaše jméno.." /><br />
-          <label for="lname">Příjmení</label><br />
-          <input type="text" name="lname" placeholder="Vaše příjmení.." /><br />
+        <article>
+          <form>
+            <label for="fname">Jméno</label><br />
+            <input type="text" name="fname" placeholder="Vaše jméno.." /><br />
+            <label for="lname">Příjmení</label><br />
+            <input
+              type="text"
+              name="lname"
+              placeholder="Vaše příjmení.."
+            /><br />
 
-          <label for="message">Zpráva</label><br />
-          <textarea name="message" placeholder="Vaše zpráva.."></textarea><br />
+            <label for="message">Zpráva</label><br />
+            <textarea name="message" placeholder="Vaše zpráva.."></textarea
+            ><br />
 
-          <input type="submit" value="Odeslat" />
-        </form>
-      </article>
+            <input type="submit" value="Odeslat" />
+          </form>
+        </article>
+      </main>
 
       <footer>
         <small
@@ -61,6 +68,6 @@
             new Date().getFullYear();
         </script>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
