@@ -92,6 +92,12 @@ a {
   text-decoration: none;
 }
 
+/* LOGO */
+
+#logo {
+  width: 75px;
+}
+
 /* NAV SECTION */
 
 .nav-link:link,
