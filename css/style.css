@@ -119,7 +119,7 @@ a {
   align-items: center;
 }
 
-.row-two-element {
+.row-two-elements {
   justify-content: space-between;
   gap: 50px;
 }
