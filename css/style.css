@@ -322,11 +322,6 @@ input[type="submit"]:hover {
 
 /* OTHER STUFFS */
 
-.bottom-line {
-  padding-bottom: 15px;
-  border-bottom: solid 1px #718ea4;
-}
-
 @media (max-width: 1366px) {
   .gallery,
   .patriots {
