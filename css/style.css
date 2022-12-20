@@ -183,6 +183,7 @@ main p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  gap: 30px;
 }
 
 .partiots-header {
