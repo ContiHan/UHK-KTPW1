@@ -137,25 +137,20 @@ body {
   height: 100%;
 }
 
-main {
+.main-grid {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  gap: 30px;
 }
 
-.grid-all-cols {
-  grid-column: 1 / -1;
-}
-
-.grid-center {
+main {
   max-width: 95%;
   justify-self: center;
   text-align: center;
 }
 
-.grid-center p {
+main p {
   text-align: justify;
 }
 
