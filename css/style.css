@@ -148,6 +148,8 @@ main {
   max-width: 95%;
   justify-self: center;
   text-align: center;
+  display: grid;
+  align-content: start;
 }
 
 main p {
@@ -326,7 +328,6 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 1366px) {
-  main,
   .gallery,
   .patriots {
     grid-template-columns: repeat(2, 1fr);
@@ -348,7 +349,6 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 650px) {
-  main,
   .gallery,
   .patriots {
     grid-template-columns: repeat(1, 1fr);
