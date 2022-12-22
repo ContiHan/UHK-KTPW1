@@ -16,11 +16,6 @@
 
 body {
   font-family: sans-serif;
-  /* border-top: 15px solid #123652; */
-
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; */
 }
 
 header {
@@ -107,13 +102,8 @@ a {
   transition: all 0.3s;
 }
 
-/* .nav-link:not(.active) {
-  background-color: #718ea4;
-} */
-
 .nav-link:hover,
 .nav-link:active {
-  /* background-color: #042037; */
   color: #eee;
 }
 
@@ -187,7 +177,6 @@ main p {
 .gallery-item img {
   display: block;
   width: 300px;
-  /* width: 100%; */
   transition: all 0.4s;
 }
 
@@ -288,8 +277,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #496d89;
 }
-
-/* OTHER STUFFS */
 
 @media (max-width: 1366px) {
   .gallery,
