@@ -134,6 +134,16 @@ a {
   flex: 1;
 }
 
+#logo-and-city {
+  gap: 10px;
+}
+
+.partiots-header {
+  max-width: 600px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
 /* GRID */
 
 html,
@@ -192,10 +202,6 @@ main p {
   gap: 30px;
 }
 
-.partiots-header {
-  max-width: 600px;
-}
-
 .patriots p {
   width: 600px;
 }
@@ -229,28 +235,6 @@ main p {
 
 .gap-huge {
   gap: 50px;
-}
-
-/* MARGINS */
-
-.margin-bottom-tiny {
-  margin-bottom: 10px;
-}
-
-.margin-bottom-small {
-  margin-bottom: 20px;
-}
-
-.margin-bottom-medium {
-  margin-bottom: 30px;
-}
-
-.margin-bottom-large {
-  margin-bottom: 40px;
-}
-
-.margin-bottom-huge {
-  margin-bottom: 50px;
 }
 
 /* TABLES */
