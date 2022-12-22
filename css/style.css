@@ -215,28 +215,6 @@ main p {
   width: 100px;
 }
 
-/* GUTTERS */
-
-.gap-tiny {
-  gap: 10px;
-}
-
-.gap-small {
-  gap: 20px;
-}
-
-.gap-medium {
-  gap: 30px;
-}
-
-.gap-large {
-  gap: 40px;
-}
-
-.gap-huge {
-  gap: 50px;
-}
-
 /* TABLES */
 
 .fancy-table {
