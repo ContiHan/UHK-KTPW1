@@ -39,16 +39,26 @@
         <article>
           <form>
             <label for="fname">Jméno</label><br />
-            <input type="text" name="fname" placeholder="Vaše jméno.." /><br />
+            <input
+              type="text"
+              name="fname"
+              placeholder="Vaše jméno.."
+              required
+            /><br />
             <label for="lname">Příjmení</label><br />
             <input
               type="text"
               name="lname"
               placeholder="Vaše příjmení.."
+              required
             /><br />
 
             <label for="message">Zpráva</label><br />
-            <textarea name="message" placeholder="Vaše zpráva.."></textarea
+            <textarea
+              name="message"
+              placeholder="Vaše zpráva.."
+              required
+            ></textarea
             ><br />
 
             <input type="submit" value="Odeslat" />
