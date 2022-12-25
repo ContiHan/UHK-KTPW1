@@ -279,8 +279,7 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 1366px) {
-  .gallery,
-  .patriots {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 
