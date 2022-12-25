@@ -1,15 +1,18 @@
 /* COLORS */
-/* BASE -    #294F6D*/
-/* Darker -  #042037 */
-/* Dark -    #123652 */
-/* Light -   #496D89 */
-/* Lighter - #718EA4 */
+/*
+
+  Base  - #294F6D
+  Dark  - #123652
+  Light - #718EA4
+
+*/
 
 /* RESET SECTION */
 
 * {
   margin: 0;
   padding: 0;
+  color: #294f6d;
 }
 
 /* MAIN ELEMENTS */
@@ -27,12 +30,13 @@ header {
 footer {
   grid-column: 1 / -1;
   background-color: #123652;
-  color: #eee;
   text-align: center;
   padding: 10px 20px;
 }
 
-footer a {
+footer small,
+footer a,
+footer span {
   color: #eee;
 }
 
@@ -97,7 +101,7 @@ a {
 
 .nav-link:link,
 .nav-link:visited {
-  color: #042037;
+  color: #123652;
   font-weight: bold;
   transition: all 0.3s;
 }
@@ -232,7 +236,7 @@ main p {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #042037;
+  background-color: #123652;
   color: white;
 }
 
@@ -275,7 +279,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #496d89;
+  background-color: #123652;
 }
 
 @media (max-width: 1366px) {
