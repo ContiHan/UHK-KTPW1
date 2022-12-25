@@ -311,8 +311,7 @@ input[type="submit"]:hover {
     min-width: 0;
   }
 
-  .fancy-table th,
-  .fancy-table td {
+  .fancy-table tr {
     font-size: 12px;
   }
 
