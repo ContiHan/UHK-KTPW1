@@ -1,85 +1,66 @@
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Oficiální stránky obce Orčí Ohlávky" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oficiální stránky obce Orčí Ohlávky">
 
-    <title>Orčí Ohlávky</title>
-  </head>
-  <body>
-    <div class="main-grid">
-      <header class="row row-two-elements">
-        <div id="logo-and-city" class="row">
-          <img
-            id="logo"
-            src="images/logo/logo-axes-transparent-colored.png"
-            alt="logo - skřížené sekery"
-          />
-          <h1>Orčí ohlávky</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a class="nav-link" href="index.html">Město</a></li>
-            <li><a class="nav-link" href="district.html">Čtvrti</a></li>
-            <li>
-              <a class="nav-link" href="administration.html">Správa</a>
-            </li>
-            <li><a class="nav-link" href="patriots.html">Patrioti</a></li>
-            <li><a class="nav-link" href="contact.html">Kontakt</a></li>
-          </ul>
-        </nav>
-      </header>
+  <link rel="stylesheet" href="css/style.css">
 
-      <main class="form-area">
-        <h2>Napište nám</h2>
+  <title>Orčí Ohlávky</title>
+</head>
 
-        <article>
-          <h3>Jedno dobré slovo hřeje srdce celou zimu</h3>
+<body>
+  <div class="main-grid">
+    <header class="row row-two-elements">
+      <div id="logo-and-city" class="row">
+        <img id="logo" src="images/logo/logo-axes-transparent-colored.png" alt="logo - skřížené sekery">
+        <h1>Orčí ohlávky</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="index.html">Město</a></li>
+          <li><a class="nav-link" href="district.html">Čtvrti</a></li>
+          <li><a class="nav-link" href="administration.html">Správa</a></li>
+          <li><a class="nav-link" href="patriots.html">Patrioti</a></li>
+          <li><a class="nav-link" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-          <form>
-            <label for="fname">Jméno</label><br />
-            <input
-              type="text"
-              id="fname"
-              placeholder="Vaše jméno.."
-              required
-            /><br />
-            <label for="lname">Příjmení</label><br />
-            <input
-              type="text"
-              id="lname"
-              placeholder="Vaše příjmení.."
-              required
-            /><br />
+    <main class="form-area">
+      <h2>Napište nám</h2>
 
-            <label for="message">Zpráva</label><br />
-            <textarea
-              id="message"
-              placeholder="Vaše zpráva.."
-              required
-            ></textarea
-            ><br />
+      <article>
+        <h3>Jedno dobré slovo hřeje srdce celou zimu</h3>
 
-            <input type="submit" value="Odeslat" />
-          </form>
-        </article>
-      </main>
+        <form>
+          <label for="fname">Jméno</label><br>
+          <input type="text" id="fname" placeholder="Vaše jméno.." required><br>
+          <label for="lname">Příjmení</label><br>
+          <input type="text" id="lname" placeholder="Vaše příjmení.." required><br>
 
-      <footer>
-        <small
-          >&copy; <span id="copyright-year"></span> HANAKDA1 Všechna práva
-          vyhrazena | poslední aktualizace - prosinec 2022 | studentský
-          zápočtový projekt KTPW1 |
-          <a href="mailto:daniel.hanak@uhk.cz">daniel.hanak@uhk.cz</a>
-        </small>
-        <script>
-          document.getElementById("copyright-year").innerHTML =
-            new Date().getFullYear();
-        </script>
-      </footer>
-    </div>
-  </body>
+          <label for="message">Zpráva</label><br>
+          <textarea id="message" placeholder="Vaše zpráva.." required></textarea><br>
+
+          <input type="submit" value="Odeslat">
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <small>&copy; <span id="copyright-year"></span> HANAKDA1 Všechna práva
+        vyhrazena | poslední aktualizace - prosinec 2022 | studentský
+        zápočtový projekt KTPW1 |
+        <a href="mailto:daniel.hanak@uhk.cz">daniel.hanak@uhk.cz</a>
+      </small>
+      <script>
+        document.getElementById("copyright-year").innerHTML =
+          new Date().getFullYear();
+      </script>
+    </footer>
+  </div>
+</body>
+
 </html>
